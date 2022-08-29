@@ -499,10 +499,29 @@
             and the same number of white marbles, and you have a playing board which consists simply of a line of 2n+1
             spaces to put the marbles in. Start with the black marbles all at one end (say, the left), the white marbles
             all at the other end, and a free space in between.</p>
+            <table style="width: 30%;" border="1px">
+                <tr>
+                  <th><img src="./black.jpeg" alt=""></th>
+                  <th><img src="./black.jpeg" alt=""></th>
+                  <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                  <th><img src="./white.jpeg" alt=""></th>
+                  <th><img src="./white.jpeg" alt=""></th>
+                </tr>
+              </table>
+            
+              <p>The goal is to reverse the positions of the marbles:</p>
+            
+              <table style="width: 30%;" border="1px">
+                <tr>
+                  <th><img src="./white.jpeg" alt=""></th>
+                  <th><img src="./white.jpeg" alt=""></th>
+                  <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                  <th><img src="./black.jpeg" alt=""></th>
+                  <th><img src="./black.jpeg" alt=""></th>
+                </tr>
+              </table>
        <img src="1.jpg" alt="">
-        <p>The goal is to reverse the positions of the marbles:</p>
-
-        <p><b>The black marbles can only move to the right, and the white marbles can only move to the left (no backing
+                <p><b>The black marbles can only move to the right, and the white marbles can only move to the left (no backing
                 up). At each move, a marble can either:</b></p>
         <p>
         <ul>
@@ -513,7 +532,123 @@
         </p>
 
         </td>
+     
+    <table style=" width: 40%; " >
+      <tr>
+      <td><b>Starting position:</b></td>
+      <td>
+    
+    <table style=" width: 70%; background-color: darkgray;" border=""  >
+      
+      
+      <tr >
+        
+       <td><img src="./black.jpeg" alt="black ball"></td>
+        <td><img src="./black.jpeg" alt="black ball"></td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><img src="./white.jpeg" alt="white ball"></td>
+        <td><img src="./white.jpeg" alt="white ball"></td>
+      </tr>
+    </table></table>
+    <br>
 
+    <table style=" width: 40%; ">
+      <tr>
+        <td><b>Black moves ahead:</b></td>
+      <td>
+    
+    <table style=" width: 70%; background-color: darkgray;" border="">
+      
+      <tr>
+        
+        <td><img src="./black.jpeg" alt=""></td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><img src="./black.jpeg" alt=""></td>
+        <td><img src="./white.jpeg" alt=""></td>
+        <td><img src="./white.jpeg" alt=""></td>
+      </tr>
+    </table></table>
+    <br>
+    
+    <table style=" width: 40%; ">
+      <tr>
+        <td><b>White jumps:</b></td>
+      <td>
+    
+    <table style=" width: 70%; background-color: darkgray;" border="">
+      
+      <tr>
+        
+        <td><img src="./black.jpeg" alt=""></td>
+        <td><img src="./white.jpeg" alt=""></td>
+        <td><img src="./black.jpeg" alt=""></td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><img src="./white.jpeg" alt=""></td>
+      </tr>
+    </table></table>
+    <br>
+
+    <table style=" width: 40%; ">
+      <tr>
+        <td><b>Black moves ahead:</b></td>
+      <td>
+    
+    <table style=" width: 70%; background-color: darkgray;" border="">
+      
+      <tr>
+        
+        <td><img src="./black.jpeg" alt=""></td>
+        <td><img src="./black.jpeg" alt=""></td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><img src="./black.jpeg" alt=""></td>
+        <td><img src="./white.jpeg" alt=""></td>
+      </tr>
+    </table></table>
+    <br>
+
+    <table style=" width: 40%; ">
+      <tr>
+        <td><b>Black jumps:</b></td>
+      <td>
+    
+    <table style=" width: 70%; background-color: darkgray;" border="">
+      
+      <tr>
+        
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><img src="./white.jpeg" alt=""></td>
+        <td><img src="./black.jpeg" alt=""></td>
+        <td><img src="./black.jpeg" alt=""></td>
+        <td><img src="./white.jpeg" alt=""></td>
+      </tr>
+    </table>
+  </table>
+    <br>
+
+    <table style=" width: 40%; border:0cm ">
+      <tr>
+        <td><b>White moves ahead:</b></td>
+      <td>
+    
+    <table style=" width: 70%; " border="">
+      
+      <tr style="background-color: darkgray;">
+        
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><img src="./white.jpeg" alt=""></td>
+        <td><img src="./black.jpeg" alt=""></td>
+        <td><img src="./black.jpeg" alt=""></td>
+        <td><img src="./white.jpeg" alt=""></td>
+      </tr>
+    </table>
+  </table> 
+    <br>  
+    
+    <table >
+      <tr>
+        <td><b>Struck!</b></td>
+      </tr>
+    </table>
 
         <p>The backtracking method is named solvable and returns a boolean. In solvable we shall need to check whether
             we are at a leaf, which in this case means a position from which no further moves are possible. This isn't
